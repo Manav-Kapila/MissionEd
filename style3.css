@@ -1237,5 +1237,8 @@
      .footerMENU {
          font-size: 16px;
          padding-bottom: 1%;
+     } 
+  .sb-example-2 .search2 {
+         width: 40%;
      }
  }
