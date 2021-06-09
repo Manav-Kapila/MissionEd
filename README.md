@@ -1,4 +1,4 @@
 # MissionEd
 
-A responsive sigle page static site.
+A responsive single page static site.
 
