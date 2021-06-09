@@ -1,1241 +1,1292 @@
- html {
-     margin: 0;
-     padding: 0;
- }
- 
- @import url("fontfiles/stylesheet.css");
- html.fontawesome-i2svg-active.fontawesome-i2svg-complete {
-     max-width: 1920px !important;
-     margin: 0 !important;
- }
- 
- .bodyArea {
-     max-width: 1920px !important;
-     margin: 0 auto;
-     padding: 0;
- }
- 
- .navContainer {
-     max-width: 1920px !important;
-     margin: 0 auto;
- }
- 
- .navContent {
-     max-width: 1200px !important;
-     margin: 0 auto;
- }
- 
- li {
-     list-style: none;
-     display: inline-block;
- }
- 
- .leftNav {
-     padding-left: 0;
- }
- 
- .leftNav>li {
-     padding-right: 16px;
- }
- 
- ul>li.rightNav {
-     float: right;
-     font-size: 16px;
-     line-height: 2.125;
- }
- 
- span.logoDes {
-     font-family: 'SF Pro Display';
-     color: #34393e;
-     padding-left: 9px;
-     vertical-align: middle;
- }
- 
- ul>li.rightNav2 {
-     font-size: 18px;
-     font-family: 'SF Pro Display';
-     color: #34393e;
-     font-weight: bold;
-     line-height: 1.889;
- }
- 
- .toggleBtn,
- .toggleMenuIcon,
- .miniNav {
-     display: none
- }
- 
- li.rightNav.rightNav2 {
-     padding-right: 35px;
-     padding-top: 3px;
- }
- /* 000000000000000000000 */
- 
- .navbar3 {
-     display: flex;
-     padding-bottom: 20px;
- }
- 
- .sb-example-1 {
-     width: 336px;
- }
- 
- .sb-example-1 .search {
-     border-width: 1px;
-     border-color: #dadada;
-     border-style: solid;
-     border-radius: 4px;
-     background-color: #ffffff;
- }
- 
- .sb-example-1 .searchTerm {
-     border: 1px solid #dadada;
-     border-right: none;
-     padding: 5px;
-     border-radius: 5px 0 0 5px;
-     outline: none;
-     font-size: 18px;
-     height: 48px;
-     color: #34393e;
- }
- 
- .sb-example-1 .searchTerm:focus {
-     color: #83bb2b;
- }
- 
- .sb-example-1 .searchButton {
-     background-color: transparent;
-     border: none;
-     text-align: center;
-     color: #34393e;
-     border-radius: 0 5px 5px 0;
-     cursor: pointer;
-     float: right;
-     padding-top: 10px;
-     padding-right: 20px;
- }
- 
- .sb-example-1 .searchButton::before,
- .sb-example-1 .searchButton::after {
-     clear: both;
- }
- /* 11111111111 */
- 
- .sb-example-2 .search2 {
-     width: 100%;
-     position: relative;
-     display: flex;
-     padding-left: 20px;
-     max-width: 844px;
- }
- 
- .sb-example-2 .searchTerm2 {
-     border: 1px solid #dadada;
-     border-right: none;
-     padding: 5px;
-     border-radius: 5px 0 0 5px;
-     outline: none;
-     font-size: 18px;
-     color: #34393e;
-     width: 790px;
-     padding-left: 17px;
- }
- 
- .sb-example-2 .searchTerm2:focus {
-     color: #83bb2b;
- }
- 
- .sb-example-2 .searchButton2 {
-     width: 48px;
-     height: 48px;
-     background: #83bb2b;
-     border: none;
-     text-align: center;
-     color: #fff;
-     border-radius: 0 5px 5px 0;
-     cursor: pointer;
-     font-size: 20px;
-     padding: 15px;
-     padding-top: 10px;
- }
- /* 000000000000000 */
- /* section2 */
- 
- .heroSection {
-     max-width: 1920px;
-     background-image: url('img/bannerImg.png');
-     background-repeat: no-repeat;
-     background-size: cover;
-     background-position: center;
- }
- 
- .herolabel {
-     padding-top: 180px;
-     padding-bottom: 50px;
-     padding-left: 356px;
- }
- 
- .heroSlogan {
-     font-size: 60px;
-     font-family: 'SF Pro Display';
-     color: #ffffff;
-     font-weight: bold;
-     line-height: 1;
-     text-align: left;
- }
- 
- .heroDes {
-     padding-left: 360px;
-     padding-bottom: 51px;
- }
- 
- .heroPara {
-     font-size: 24px;
-     font-family: 'SF Pro Display';
-     color: #ffffff;
-     line-height: 1.458;
-     text-align: left;
- }
- 
- .heroBtnBlock {
-     padding-left: 360px;
-     padding-bottom: 181px;
- }
- 
- .heroBtn {
-     font-size: 18px;
-     font-family: 'SF Pro Display';
-     color: #ffffff;
-     font-weight: bold;
-     border-radius: 4px;
-     padding: 10px 21px 10px 21px;
-     border: none;
-     background-image: -moz-linear-gradient( 180deg, rgb(131, 187, 43) 0%, rgb(154, 188, 101) 100%);
-     background-image: -webkit-linear-gradient( 180deg, rgb(131, 187, 43) 0%, rgb(154, 188, 101) 100%);
-     background-image: -ms-linear-gradient( 180deg, rgb(131, 187, 43) 0%, rgb(154, 188, 101) 100%);
- }
- 
- .sectionVision {
-     max-width: 1200px;
-     margin: 0 auto;
- }
- 
- .s3Header {
-     padding-top: 100px;
-     padding-bottom: 25px;
-     display: flex;
-     flex-direction: row;
-     justify-content: space-between;
- }
- 
- .heading3 {
-     color: #34393e;
-     font-size: 40px;
-     font-family: 'SF Pro Display';
-     font-weight: bold;
-     line-height: 1;
-     text-align: left;
-     margin-bottom: 0px;
- }
- 
- .heroBtn3 {
-     border-radius: 4px;
-     background-image: -moz-linear-gradient( 180deg, rgb(131, 187, 43) 0%, rgb(154, 188, 101) 100%);
-     background-image: -webkit-linear-gradient( 180deg, rgb(131, 187, 43) 0%, rgb(154, 188, 101) 100%);
-     background-image: -ms-linear-gradient( 180deg, rgb(131, 187, 43) 0%, rgb(154, 188, 101) 100%);
-     font-size: 18px;
-     font-family: 'SF Pro Display';
-     color: #ffffff;
-     font-weight: bold;
-     padding: 12px 30px 12px 30px;
-     border: none;
- }
- 
- .s3des {
-     font-size: 24px;
-     font-family: 'SF Pro Display';
-     color: rgb(52, 57, 62);
-     line-height: 1.667;
-     text-align: left;
- }
- 
- .s3des>p {
-     margin-bottom: 0;
-     padding-bottom: 50px;
- }
- 
- .s3GridContainer {
-     max-width: 1200px;
-     margin: 0;
-     padding: 0;
-     padding-bottom: 50px;
- }
- 
- .gridNum {
-     font-size: 40px;
-     margin-bottom: 0;
-     font-family: 'SF Pro Display';
-     color: #83bb2b;
-     font-weight: bold;
-     line-height: 1;
-     text-align: left;
-     padding-bottom: 20px;
- }
- 
- .gridDes {
-     font-size: 18px;
-     font-family: 'SF Pro Display';
-     color: #34393e;
-     line-height: 1.556;
-     text-align: left;
- }
- 
- .non-gutters,
- .col-md-4 {
-     margin-left: 0;
-     margin-right: 0;
-     padding-left: 0;
-     padding-right: 0;
- }
- 
- .gCol {
-     padding-left: 60px;
- }
- 
- .gCol2 {
-     padding-left: 100px;
- }
- 
- p.gridDes {
-     margin-bottom: 0;
-     padding-bottom: 50px;
- }
- /* Cards Section */
- 
- .section4Container {
-     max-width: 1200px;
-     margin: 0 auto;
-     padding: 0;
-     padding-bottom: 100px;
- }
- 
- .s4Row1 {
-     width: 100%;
- }
- 
- div.s4C1.col-3 {
-     border-right: 1px solid #dadada;
- }
- 
- .s4C1CheckList {
-     display: flex;
-     flex-direction: row;
-     gap: 84px;
-     padding-top: 20px;
-     max-width: 280px;
- }
- 
- .checkList1>label,
- .checkList2>label {
-     font-size: 15px;
-     font-family: 'SF Pro Display';
-     color: rgb(52, 57, 62);
-     line-height: 1.867;
- }
- 
- .grades {
-     font-size: 18px;
-     font-family: 'SF Pro Display';
-     color: rgb(52, 57, 62);
-     font-weight: bold;
-     line-height: 1.889;
-     text-align: left;
- }
- 
- .headingS4 {
-     font-size: 24px;
-     font-family: 'SF Pro Display';
-     color: rgb(52, 57, 62);
-     font-weight: bold;
-     line-height: 1.667;
-     text-align: left;
- }
- 
- .s4Link>a {
-     font-size: 14px;
-     font-family: 'SF Pro Display';
-     color: rgb(131, 187, 43);
-     font-weight: bold;
-     text-decoration: underline;
-     text-transform: uppercase;
-     line-height: 2.429;
-     text-align: left;
-     padding-left: 22px;
- }
- 
- .card-deck {
-     border: none;
-     padding-left: 32px;
-     padding-top: 50px;
- }
- 
- .card-body {
-     padding: 0;
-     padding-left: 10px;
- }
- 
- .card-img-top {
-     height: 160px;
-     width: 250px;
-     padding: 0 4px;
- }
- 
- .card-text {
-     font-size: 15px;
-     font-family: 'SF Pro Display';
-     color: #34393e;
-     line-height: 1.333;
-     text-align: left;
-     padding-top: 10px;
- }
- 
- .card-title {
-     font-size: 15px;
-     font-family: 'SF Pro Display';
-     color: rgb(52, 57, 62);
-     font-weight: bold;
-     line-height: 1.467;
-     text-align: left;
- }
- 
- .card-deck {
-     max-width: 920px;
- }
- 
- .card-deck .card {
-     max-width: 274px;
-     margin: 0;
-     margin-right: 30px;
-     border-radius: 4px;
-     box-shadow: 0px 3px 14.55px 0.45px rgba(0, 0, 0, 0.09);
- }
- 
- .cost {
-     font-size: 18px;
-     font-family: 'SF Pro Display';
-     color: rgb(131, 187, 43);
-     font-weight: bold;
-     line-height: 1.111;
-     text-align: left;
-     padding: 10px 90px 20px 10px;
- }
- 
- .linkToBuy>a {
-     font-size: 18px;
-     font-family: 'SF Pro Display';
-     color: rgb(52, 57, 62);
-     font-weight: bold;
-     line-height: 1.111;
- }
- 
- .card-footer {
-     background-color: transparent;
-     padding-right: 0;
-     padding-left: 0;
- }
- 
- .others2 {
-     padding-top: 64px;
-     margin-bottom: 0;
-     padding-bottom: 10px;
- }
- 
- .checkList3 {
-     font-size: 15px;
-     font-family: 'SF Pro Display';
-     color: rgb(52, 57, 62);
-     line-height: 1.867;
-     text-align: left;
- }
- /* SECTION 5 */
- 
- .bottomBannerContainer {
-     background-color: #34393e;
-     max-width: 1920px;
-     margin: 0 auto;
-     background-image: url('img/banner22.png');
-     background-repeat: no-repeat;
-     background-size: cover;
-     background-position: center;
- }
- 
- .bBannerLabel {
-     padding-left: 360px;
-     padding-bottom: 139px;
-     padding-top: 135px;
-     max-width: 1063px;
- }
- 
- .bBannerHeading {
-     font-size: 40px;
-     font-family: 'SF Pro Display';
-     color: rgb(255, 255, 255);
-     font-weight: bold;
-     line-height: 1.25;
-     text-align: left;
-     padding-bottom: 35px;
-     margin-bottom: 0;
- }
- 
- .bBannerCaption {
-     font-size: 24px;
-     font-family: 'SF Pro Display';
-     color: rgb(255, 255, 255);
-     text-align: left;
-     padding-bottom: 47px;
-     margin-bottom: 0;
- }
- 
- .bBannerBtn {
-     font-size: 18px;
-     font-family: 'SF Pro Display';
-     color: rgb(255, 255, 255);
-     font-weight: bold;
-     border-radius: 4px;
-     padding: 11px 20px;
-     border: none;
-     background-image: -moz-linear-gradient( 180deg, #83bb2b 0%, #9abc65 100%);
-     background-image: -webkit-linear-gradient( 180deg, #83bb2b 0%, #9abc65 100%);
-     background-image: -ms-linear-gradient( 180deg, #83bb2b 0%, #9abc65 100%);
- }
- /*  SECTION 6 */
- 
- .s7Container {
-     text-align: center;
- }
- 
- .bSlogan {
-     font-size: 40px;
-     font-family: 'SF Pro Display';
-     color: #34393e;
-     font-weight: bold;
-     padding-top: 98px;
-     padding-bottom: 20px;
- }
- 
- .bAuthor {
-     font-size: 24px;
-     font-family: 'SF Pro Display';
-     color: #83bb2b;
-     font-weight: bold;
-     padding-bottom: 100px;
-     text-align: center;
- }
- /* 00000000000000000 */
- /* SECTION 7 OR FOOTER */
- /* 00000000000000000 */
- 
- .footerContainer {
-     background-color: #18191a;
-     margin-bottom: 0
- }
- 
- .footerInBox {
-     display: flex;
-     color: #fff;
-     font-family: 'SF Pro Display';
-     padding: 100px 0;
-     max-width: 1200px;
-     margin: 0 auto;
-     padding-bottom: 83px;
- }
- 
- .col2 {
-     width: 15%;
- }
- 
- .col3,
- .col2-2 {
-     width: 17.5%
- }
- 
- .col4,
- .col1 {
-     width: 25%
- }
- 
- .col1 {
-     text-align: left
- }
- 
- .footerImg {
-     display: block;
-     max-width: 259px;
-     height: auto;
-     margin: 0
- }
- 
- .col1 p {
-     margin: 0;
-     font-size: 16px;
-     font-family: 'SF Pro Display';
-     color: #ffffff;
-     line-height: 1.625;
-     text-align: left;
-     padding-top: 45px;
- }
- 
- .col2 div.col2list {
-     list-style: none;
-     margin: 0;
-     padding-left: 60px
- }
- 
- div.col2list a,
- div.col2-2list a {
-     font-size: 16px;
-     line-height: 1.875;
-     padding-top: 6px;
-     color: #fff;
-     margin-bottom: 0;
-     text-decoration: none;
-     font-family: 'SF Pro Display';
- }
- 
- a#specialLink {
-     text-decoration: underline;
-     color: 96ab5c!important
- }
- 
- .footerMENU {
-     font-size: 18px;
-     font-family: 'SF Pro Display';
-     color: #83bb2b;
-     font-weight: 700;
-     line-height: 1.111;
-     text-align: left;
-     margin-top: 0;
-     padding-bottom: 32px
- }
- 
- div.col2-2list {
-     padding-left: 25px;
- }
- 
- .col3 div.col3list {
-     font-family: 'SF Pro Display';
-     margin: 0;
-     padding-left: 35px
- }
- 
- .col3list h3 {
-     font-family: 'SF Pro Display';
-     font-size: 16px;
-     margin-bottom: 0
- }
- 
- .col3list a {
-     font-size: 16px;
-     font-family: 'SF Pro Display';
-     color: #ffffff;
-     line-height: 1.875;
-     text-decoration: none
- }
- 
- h3.specialH3 {
-     color: #83bb2b;
-     padding-bottom: 12px
- }
- 
- a.contactFontIconFooter {
-     padding-right: 20px
- }
- 
- .col4List {
-     margin-top: 0;
-     padding-left: 30px
- }
- 
- .col4List p {
-     font-size: 16px;
-     font-family: 'SF Pro Display';
-     color: #ffffff;
-     line-height: 1.625;
-     text-align: left;
-     margin-bottom: 0;
- }
- 
- .col4List a {
-     font-size: 18px;
-     font-family: 'SF Pro Display';
-     color: #83bb2b;
-     font-weight: bold;
-     line-height: 1.889;
-     margin-bottom: 0;
- }
- 
- .footerSearch {
-     padding-top: 30px;
-     max-width: 304px;
- }
- 
- .sb-example-1 .searchTerm3 {
-     font-size: 16px;
-     font-family: 'SF Pro Display';
-     color: #ffffff80;
-     padding: 18px;
- }
- 
- input.searchTerm.searchTerm3 {
-     border-right: 0px;
- }
- 
- input.searchTerm.searchTerm3,
- .sb-example-3 .search3 {
-     border-width: 1px;
-     border-color: rgb(255, 255, 255);
-     border-style: solid;
-     border-radius: 4px;
-     background-color: rgb(24, 25, 26);
- }
- 
- .col1 {
-     max-width: 260px;
- }
- 
- .declarationContainer {
-     max-width: 1200px;
-     display: flex;
-     margin: 0 auto;
-     justify-content: space-between;
- }
- 
- .lhsDeclaration p {
-     font-size: 16px;
-     font-family: 'SF Pro Display';
-     color: rgb(255, 255, 255);
-     padding-left: 10px;
- }
- 
- .footNavIcons>li {
-     color: #fff;
-     font-size: 20px;
- }
- /* RESPONSIVE */
- 
- @media only screen and (max-width:1800px) {
-     .bBannerLabel {
-         padding-left: 260px;
-     }
-     .herolabel,
-     .heroDes,
-     .heroBtnBlock {
-         padding-left: 256px;
-     }
- }
- 
- @media only screen and (max-width:1600px) {
-     .bBannerLabel {
-         padding-left: 210px;
-     }
-     .herolabel,
-     .heroDes,
-     .heroBtnBlock {
-         padding-left: 206px;
-     }
- }
- 
- @media only screen and (max-width:1450px) {
-     .bBannerLabel {
-         padding-left: 150px;
-     }
-     .herolabel,
-     .heroDes,
-     .heroBtnBlock {
-         padding-left: 150px;
-     }
- }
- 
- @media only screen and (max-width:1350px) {
-     .bBannerLabel {
-         padding-left: 100px;
-     }
-     .herolabel,
-     .heroDes,
-     .heroBtnBlock {
-         padding-left: 100px;
-     }
- }
- 
- @media only screen and (max-width:1300px) {
-     .bBannerLabel {
-         padding-left: 50px;
-     }
-     .herolabel,
-     .heroDes,
-     .heroBtnBlock {
-         padding-left: 50px;
-     }
- }
- 
- @media only screen and (max-width:1200px) {
-     .bBannerLabel {
-         padding-left: 0px;
-     }
-     .herolabel,
-     .heroDes,
-     .heroBtnBlock {
-         padding-left: 0px;
-     }
-     .bBannerHeading {
-         font-size: 35px;
-     }
- }
- 
- @media only screen and (max-width:1180px) {
-     .col1 p,
-     div.col2list a,
-     div.col2-2list a,
-     .col3list a,
-     .col4List p {
-         font-size: 14px;
-     }
-     .footerSearch {
-         max-width: 280px;
-     }
-     .footerInBox {
-         padding-left: 1%;
-     }
-     .bBannerHeading {
-         font-size: 30px;
-     }
- }
- 
- @media only screen and (max-width:1180px) {
-     .bBannerLabel {
-         padding-left: 10%;
-         padding-bottom: 10%;
-         padding-top: 10%;
-     }
-     .herolabel,
-     .heroDes,
-     .heroBtnBlock {
-         padding-left: 15%;
-     }
-     .heroPara {
-         font-size: 1.25rem;
-     }
-     .heroSlogan {
-         font-size: 3rem;
-     }
-     .heroBtn,
-     .heroBtn3 {
-         font-size: 16px;
-     }
-     .sectionVision {
-         padding-left: 5%;
-         padding-right: 2%;
-     }
-     .heading3 {
-         font-size: 35px;
-     }
-     .s3des {
-         font-size: 20px;
-     }
-     div.s4C1.col-3 {
-         padding-left: 5%;
-     }
-     .card-img-top {
-         height: 150px;
-         width: 240px;
-     }
-     ul>li.rightNav2 {
-         font-size: 16px;
-     }
-     .navContent {
-         padding-left: 1%;
-         padding-right: 1%;
-     }
-     .footerSearch {
-         max-width: 100%;
-     }
-     .bBannerLabel {
-         padding-left: 8%;
-         padding-bottom: 8%;
-         padding-top: 8%;
-     }
- }
- 
- @media only screen and (max-width:1125px) {
-     .cost,
-     .linkToBuy>a,
-     .card-title,
-     .card-text {
-         font-size: 14px;
-     }
-     .bBannerHeading {
-         font-size: 25px;
-     }
-     .bBannerCaption {
-         font-size: 20px;
-     }
-     .bBannerBtn {
-         font-size: 14px;
-     }
-     .lhsDeclaration p {
-         font-size: 14px;
-     }
-     .footNavIcons>li {
-         font-size: 18px;
-     }
- }
- 
- @media only screen and (max-width:1115px) {
-     .sb-example-1 .searchButton {
-         display: none;
-     }
-     .card-img-top {
-         height: 50%;
-         width: 95%;
-         margin: 0 auto;
-     }
- }
- 
- @media only screen and (max-width:1070px) {
-     .svg-inline--fa.fa-w-10 {
-         display: none;
-     }
-     .card-img-top {
-         height: 50%;
-         width: 95%;
-         margin: 0 auto;
-     }
-     .sb-example-1 .searchButton {
-         display: block;
-     }
-     .navbar3 {
-         display: flex;
-         padding-bottom: 20px;
-         flex-direction: column;
-         gap: 10px;
-         align-items: center;
-     }
-     .cost {
-         padding-right: 40%;
-     }
-     .cost,
-     .linkToBuy>a,
-     .card-title,
-     .card-text {
-         font-size: 12px;
-     }
-     .headingS4 {
-         font-size: 20px;
-     }
- }
- 
- @media only screen and (max-width:1000px) {
-     .col1 p,
-     div.col2list a,
-     div.col2-2list a,
-     .col3list a,
-     .col4List p {
-         font-size: 14px;
-         padding-left: 0;
-     }
-     .footerSearch {
-         max-width: 280px;
-     }
-     .footerInBox {
-         padding-left: 1%;
-         display: grid;
-         grid-template-columns: 1fr 1fr 1fr;
-         grid-template-areas: "header header";
-         grid-row-gap: 20px;
-     }
-     .bBannerHeading {
-         font-size: 30px;
-     }
-     .bBannerHeading {
-         font-size: 25px;
-     }
-     .bBannerCaption {
-         font-size: 18px;
-     }
-     .bSlogan {
-         font-size: 30px;
-         padding-top: 60px;
-     }
-     .bAuthor {
-         font-size: 20px;
-         padding-bottom: 60px;
-     }
-     .col1 {
-         grid-area: header;
-         width: 100%;
-         margin: 0 auto;
-     }
-     .col2,
-     .col2-2,
-     .col3,
-     .col4 {
-         width: 100%;
-         margin: 0 auto;
-     }
-     ul>li.rightNav2,
-     span.logoDes,
-     .sb-example-1 .searchTerm,
-     .sb-example-2 .searchTerm2 {
-         font-size: 14px;
-     }
-     .herolabel,
-     .heroDes,
-     .heroBtnBlock {
-         padding-left: 12%;
-     }
-     .s3des>p {
-         font-size: 18px;
-     }
-     .footerImg {
-         width: 200px;
-     }
-     .footerSearch {
-         max-width: 250px;
-     }
- }
- 
- @media only screen and (max-width:970px) {
-     .card-deck {
-         display: grid;
-         grid-template-columns: 1fr 1fr;
-         grid-row-gap: 5%;
-     }
- }
- 
- @media only screen and (max-width:950px) {
-     .herolabel {
-         padding-top: 10%;
-     }
-     .heroBtnBlock {
-         padding-bottom: 10%;
-     }
-     .navLogo {
-         width: 70%;
-     }
-     .sb-example-1 .search {
-         display: none;
-     }
-     div.col2-2list,
-     .col4List,
-     .col2 div.col2list {
-         padding-left: 0;
-     }
-     .footerInBox {
-         padding-right: 1%;
-     }
-     .sb-example-2 .search2 {
-         width: 95%;
-     }
-     div.s4C1.col-3 {
-         padding-left: 3%;
-         padding-right: 1%;
-     }
-     .lhsDeclaration p {
-         font-size: 12px;
-     }
-     .footNavIcons>li {
-         font-size: 16px;
-     }
- }
- 
- @media only screen and (max-width:860px) {
-     .heroSlogan {
-         font-size: 2.5rem;
-     }
-     .navLogo {
-         width: 65%;
-     }
-     .heroPara {
-         font-size: 1.15rem;
-     }
-     .heroBtn,
-     .heroBtn3,
-     .gridDes {
-         font-size: 14px;
-     }
-     .heroBtn3 {
-         padding: 10px 20px;
-     }
-     .gridNum {
-         font-size: 30px;
-     }
-     .bBannerHeading {
-         font-size: 20px;
-     }
-     .bBannerCaption {
-         font-size: 16px;
-     }
-     .herolabel,
-     .heroDes,
-     .heroBtnBlock {
-         padding-left: 10%;
-     }
-     .gCol,
-     .gCol2 {
-         padding-left: 6%;
-     }
-     .bBannerLabel {
-         padding-left: 6%;
-         padding-bottom: 6%;
-         padding-top: 6%;
-     }
-     .bSlogan {
-         font-size: 25px;
-         padding-bottom: 10px;
-     }
-     .bAuthor {
-         margin-bottom: 0;
-     }
-     .footerInBox {
-         padding-top: 10%;
-     }
-     .sb-example-2 .search2 {
-         width: 90%;
-         margin: auto;
-     }
-     .footerImg {
-         width: 150px;
-     }
-     .s4C1CheckList {
-         column-gap: 40px;
-     }
- }
- 
- @media only screen and (max-width:750px) {
-     .miniNav {
-         display: flex;
-         justify-content: space-between;
-     }
-     .navLogoMini {
-         width: 20%;
-         padding: 10px;
-     }
-     h1.toggleMenuIcon {
-         display: block;
-         text-align: center
-     }
-     .toggleBtn {
-         border: 0;
-         display: block;
-         background-color: transparent;
-         font-weight: 700;
-     }
-     .toggleBtn::after,
-     .toggleBtn::before {
-         clear: both
-     }
-     .sb-example-2 .search2 {
-         width: 60%;
-     }
-     .hide {
-         display: none
-     }
-     .navLogo {
-         display: none;
-     }
-     .leftNav2 {
-         display: flex;
-         flex-direction: column-reverse;
-         padding-left: 20%;
-     }
- }
- 
- @media only screen and (max-width:670px) {
-     .herolabel {
-         padding-top: 5%;
-     }
-     .herolabel,
-     .heroDes,
-     .heroBtnBlock {
-         padding-left: 5%;
-         padding-bottom: 5%;
-     }
-     .heroSlogan {
-         font-size: 2rem;
-     }
-     .heroPara {
-         font-size: 1rem;
-         margin-bottom: 0;
-     }
-     .heading3 {
-         font-size: 25px;
-     }
-     .heroBtn,
-     .heroBtn3,
-     .gridDes {
-         font-size: 12px;
-     }
-     .s3des>p {
-         font-size: 14px;
-     }
-     .s3GridContainer {
-         padding-bottom: 0;
-     }
-     .s4C1CheckList {
-         column-gap: 20px;
-     }
-     .bBannerHeading {
-         font-size: 18px;
-         padding-bottom: 3%;
-     }
-     .bBannerCaption {
-         padding-bottom: 3%;
-     }
-     .bBannerBtn {
-         font-size: 11px;
-     }
-     .bSlogan {
-         padding-top: 5%;
-         font-size: 20px;
-         padding-bottom: 2px;
-         margin-bottom: 0;
-     }
-     .bAuthor {
-         font-size: 15px;
-         padding-bottom: 5%;
-     }
-     .col1 p,
-     div.col2list a,
-     div.col2-2list a,
-     .col3list a,
-     .col4List p {
-         font-size: 12px;
-         padding-left: 0;
-     }
-     .footerSearch {
-         max-width: 200px;
-     }
- }
- 
- @media only screen and (max-width:600px) {
-     .bBannerHeading {
-         font-size: 16px;
-     }
- }
- 
- @media only screen and (max-width:640px) {
-     .card-deck {
-         grid-template-columns: 1fr;
-     }
- }
- 
- @media only screen and (max-width:540px) {
-     .footerInBox {
-         grid-template-columns: 1fr 1fr;
-         padding-left: 10%;
-     }
-     .footerMENU {
-         font-size: 16px;
-         padding-bottom: 1%;
-     }
- }
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+@import url("fontfiles/stylesheet.css");
+html.fontawesome-i2svg-active.fontawesome-i2svg-complete {
+    max-width: 1920px !important;
+    margin: 0 auto !important;
+}
+
+.bodyArea {
+    max-width: 1920px !important;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.navContainer {
+    max-width: 1920px !important;
+    margin: 0 auto;
+}
+
+.navContent {
+    max-width: 1200px !important;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+.leftNav {
+    padding-left: 0;
+}
+
+.leftNav>li {
+    padding-right: 16px;
+}
+
+ul>li.rightNav {
+    float: right;
+    font-size: 16px;
+    line-height: 2.125;
+}
+
+span.logoDes {
+    font-family: 'SF Pro Display';
+    color: #34393e;
+    padding-left: 9px;
+    vertical-align: middle;
+}
+
+ul>li.rightNav2 {
+    font-size: 18px;
+    font-family: 'SF Pro Display';
+    color: #34393e;
+    font-weight: bold;
+    line-height: 1.889;
+}
+
+.toggleBtn,
+.toggleMenuIcon,
+.miniNav {
+    display: none
+}
+
+li.rightNav.rightNav2 {
+    padding-right: 35px;
+    padding-top: 3px;
+}
+
+
+/* 000000000000000000000 */
+
+.navbar3 {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.sb-example-1 {
+    width: 336px;
+}
+
+.sb-example-1 .search {
+    border-width: 1px;
+    border-color: #dadada;
+    border-style: solid;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+.sb-example-1 .searchTerm {
+    border: 1px solid #dadada;
+    border-right: none;
+    padding: 5px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    font-size: 18px;
+    height: 48px;
+    color: #34393e;
+}
+
+.sb-example-1 .searchTerm:focus {
+    color: #83bb2b;
+}
+
+.sb-example-1 .searchButton {
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    color: #34393e;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    float: right;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+.sb-example-1 .searchButton::before,
+.sb-example-1 .searchButton::after {
+    clear: both;
+}
+
+
+/* 11111111111 */
+
+.sb-example-2 .search2 {
+    width: 100%;
+    position: relative;
+    display: flex;
+    padding-left: 20px;
+    max-width: 844px;
+}
+
+.sb-example-2 .searchTerm2 {
+    border: 1px solid #dadada;
+    border-right: none;
+    padding: 5px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    font-size: 18px;
+    color: #34393e;
+    width: 790px;
+    padding-left: 17px;
+}
+
+.sb-example-2 .searchTerm2:focus {
+    color: #83bb2b;
+}
+
+.sb-example-2 .searchButton2 {
+    width: 48px;
+    height: 48px;
+    background: #83bb2b;
+    border: none;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 15px;
+    padding-top: 10px;
+}
+
+
+/* 000000000000000 */
+
+
+/* section2 */
+
+.heroSection {
+    max-width: 1920px;
+    background-image: url('img/bannerImg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.herolabel {
+    padding-top: 180px;
+    padding-bottom: 50px;
+    padding-left: 356px;
+}
+
+.heroSlogan {
+    font-size: 60px;
+    font-family: 'SF Pro Display';
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 1;
+    text-align: left;
+}
+
+.heroDes {
+    padding-left: 360px;
+    padding-bottom: 51px;
+}
+
+.heroPara {
+    font-size: 24px;
+    font-family: 'SF Pro Display';
+    color: #ffffff;
+    line-height: 1.458;
+    text-align: left;
+}
+
+.heroBtnBlock {
+    padding-left: 360px;
+    padding-bottom: 181px;
+}
+
+.heroBtn {
+    font-size: 18px;
+    font-family: 'SF Pro Display';
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 10px 21px 10px 21px;
+    border: none;
+    background-image: -moz-linear-gradient( 180deg, rgb(131, 187, 43) 0%, rgb(154, 188, 101) 100%);
+    background-image: -webkit-linear-gradient( 180deg, rgb(131, 187, 43) 0%, rgb(154, 188, 101) 100%);
+    background-image: -ms-linear-gradient( 180deg, rgb(131, 187, 43) 0%, rgb(154, 188, 101) 100%);
+}
+
+.sectionVision {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.s3Header {
+    padding-top: 100px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.heading3 {
+    color: #34393e;
+    font-size: 40px;
+    font-family: 'SF Pro Display';
+    font-weight: bold;
+    line-height: 1;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.heroBtn3 {
+    border-radius: 4px;
+    background-image: -moz-linear-gradient( 180deg, rgb(131, 187, 43) 0%, rgb(154, 188, 101) 100%);
+    background-image: -webkit-linear-gradient( 180deg, rgb(131, 187, 43) 0%, rgb(154, 188, 101) 100%);
+    background-image: -ms-linear-gradient( 180deg, rgb(131, 187, 43) 0%, rgb(154, 188, 101) 100%);
+    font-size: 18px;
+    font-family: 'SF Pro Display';
+    color: #ffffff;
+    font-weight: bold;
+    padding: 12px 30px 12px 30px;
+    border: none;
+}
+
+.s3des {
+    font-size: 24px;
+    font-family: 'SF Pro Display';
+    color: rgb(52, 57, 62);
+    line-height: 1.667;
+    text-align: left;
+}
+
+.s3des>p {
+    margin-bottom: 0;
+    padding-bottom: 50px;
+}
+
+.s3GridContainer {
+    max-width: 1200px;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 50px;
+}
+
+.gridNum {
+    font-size: 40px;
+    margin-bottom: 0;
+    font-family: 'SF Pro Display';
+    color: #83bb2b;
+    font-weight: bold;
+    line-height: 1;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.gridDes {
+    font-size: 18px;
+    font-family: 'SF Pro Display';
+    color: #34393e;
+    line-height: 1.556;
+    text-align: left;
+}
+
+.non-gutters,
+.col-md-4 {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.gCol {
+    padding-left: 60px;
+}
+
+.gCol2 {
+    padding-left: 100px;
+}
+
+p.gridDes {
+    margin-bottom: 0;
+    padding-bottom: 50px;
+}
+
+
+/* Cards Section */
+
+.section4Container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    padding-bottom: 100px;
+}
+
+.s4Row1 {
+    width: 100%;
+}
+
+div.s4C1.col-3 {
+    border-right: 1px solid #dadada;
+}
+
+.s4C1CheckList {
+    display: flex;
+    flex-direction: row;
+    gap: 84px;
+    padding-top: 20px;
+    max-width: 280px;
+}
+
+.checkList1>label,
+.checkList2>label {
+    font-size: 15px;
+    font-family: 'SF Pro Display';
+    color: rgb(52, 57, 62);
+    line-height: 1.867;
+}
+
+.grades {
+    font-size: 18px;
+    font-family: 'SF Pro Display';
+    color: rgb(52, 57, 62);
+    font-weight: bold;
+    line-height: 1.889;
+    text-align: left;
+}
+
+.headingS4 {
+    font-size: 24px;
+    font-family: 'SF Pro Display';
+    color: rgb(52, 57, 62);
+    font-weight: bold;
+    line-height: 1.667;
+    text-align: left;
+}
+
+.s4Link>a {
+    font-size: 14px;
+    font-family: 'SF Pro Display';
+    color: rgb(131, 187, 43);
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: uppercase;
+    line-height: 2.429;
+    text-align: left;
+    padding-left: 22px;
+}
+
+.card-deck {
+    border: none;
+    padding-left: 32px;
+    padding-top: 50px;
+}
+
+.card-body {
+    padding: 0;
+    padding-left: 10px;
+}
+
+.card-img-top {
+    height: 160px;
+    width: 250px;
+    padding: 0 4px;
+}
+
+.card-text {
+    font-size: 15px;
+    font-family: 'SF Pro Display';
+    color: #34393e;
+    line-height: 1.333;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.card-title {
+    font-size: 15px;
+    font-family: 'SF Pro Display';
+    color: rgb(52, 57, 62);
+    font-weight: bold;
+    line-height: 1.467;
+    text-align: left;
+}
+
+.card-deck {
+    max-width: 920px;
+}
+
+.card-deck .card {
+    max-width: 274px;
+    margin: 0;
+    margin-right: 30px;
+    border-radius: 4px;
+    box-shadow: 0px 3px 14.55px 0.45px rgba(0, 0, 0, 0.09);
+}
+
+.cost {
+    font-size: 18px;
+    font-family: 'SF Pro Display';
+    color: rgb(131, 187, 43);
+    font-weight: bold;
+    line-height: 1.111;
+    text-align: left;
+    padding: 10px 90px 20px 10px;
+}
+
+.linkToBuy>a {
+    font-size: 18px;
+    font-family: 'SF Pro Display';
+    color: rgb(52, 57, 62);
+    font-weight: bold;
+    line-height: 1.111;
+}
+
+.card-footer {
+    background-color: transparent;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.others2 {
+    padding-top: 64px;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+
+.checkList3 {
+    font-size: 15px;
+    font-family: 'SF Pro Display';
+    color: rgb(52, 57, 62);
+    line-height: 1.867;
+    text-align: left;
+}
+
+
+/* SECTION 5 */
+
+.bottomBannerContainer {
+    background-color: #34393e;
+    max-width: 1920px;
+    margin: 0 auto;
+    background-image: url('img/banner22.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bBannerLabel {
+    padding-left: 360px;
+    padding-bottom: 139px;
+    padding-top: 135px;
+    max-width: 1063px;
+}
+
+.bBannerHeading {
+    font-size: 40px;
+    font-family: 'SF Pro Display';
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.25;
+    text-align: left;
+    padding-bottom: 35px;
+    margin-bottom: 0;
+}
+
+.bBannerCaption {
+    font-size: 24px;
+    font-family: 'SF Pro Display';
+    color: rgb(255, 255, 255);
+    text-align: left;
+    padding-bottom: 47px;
+    margin-bottom: 0;
+}
+
+.bBannerBtn {
+    font-size: 18px;
+    font-family: 'SF Pro Display';
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 11px 20px;
+    border: none;
+    background-image: -moz-linear-gradient( 180deg, #83bb2b 0%, #9abc65 100%);
+    background-image: -webkit-linear-gradient( 180deg, #83bb2b 0%, #9abc65 100%);
+    background-image: -ms-linear-gradient( 180deg, #83bb2b 0%, #9abc65 100%);
+}
+
+
+/*  SECTION 6 */
+
+.s7Container {
+    text-align: center;
+}
+
+.bSlogan {
+    font-size: 40px;
+    font-family: 'SF Pro Display';
+    color: #34393e;
+    font-weight: bold;
+    padding-top: 98px;
+    padding-bottom: 20px;
+}
+
+.bAuthor {
+    font-size: 24px;
+    font-family: 'SF Pro Display';
+    color: #83bb2b;
+    font-weight: bold;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+
+/* 00000000000000000 */
+
+
+/* SECTION 7 OR FOOTER */
+
+
+/* 00000000000000000 */
+
+.footerContainer {
+    background-color: #18191a;
+    margin-bottom: 0
+}
+
+.footerInBox {
+    display: flex;
+    color: #fff;
+    font-family: 'SF Pro Display';
+    padding: 100px 0;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 83px;
+}
+
+.col2 {
+    width: 15%;
+}
+
+.col3,
+.col2-2 {
+    width: 17.5%
+}
+
+.col4,
+.col1 {
+    width: 25%
+}
+
+.col1 {
+    text-align: left
+}
+
+.footerImg {
+    display: block;
+    max-width: 259px;
+    height: auto;
+    margin: 0
+}
+
+.col1 p {
+    margin: 0;
+    font-size: 16px;
+    font-family: 'SF Pro Display';
+    color: #ffffff;
+    line-height: 1.625;
+    text-align: left;
+    padding-top: 45px;
+}
+
+.col2 div.col2list {
+    list-style: none;
+    margin: 0;
+    padding-left: 60px
+}
+
+div.col2list a,
+div.col2-2list a {
+    font-size: 16px;
+    line-height: 1.875;
+    padding-top: 6px;
+    color: #fff;
+    margin-bottom: 0;
+    text-decoration: none;
+    font-family: 'SF Pro Display';
+}
+
+a#specialLink {
+    text-decoration: underline;
+    color: 96ab5c!important
+}
+
+.footerMENU {
+    font-size: 18px;
+    font-family: 'SF Pro Display';
+    color: #83bb2b;
+    font-weight: 700;
+    line-height: 1.111;
+    text-align: left;
+    margin-top: 0;
+    padding-bottom: 32px
+}
+
+div.col2-2list {
+    padding-left: 25px;
+}
+
+.col3 div.col3list {
+    font-family: 'SF Pro Display';
+    margin: 0;
+    padding-left: 35px
+}
+
+.col3list h3 {
+    font-family: 'SF Pro Display';
+    font-size: 16px;
+    margin-bottom: 0
+}
+
+.col3list a {
+    font-size: 16px;
+    font-family: 'SF Pro Display';
+    color: #ffffff;
+    line-height: 1.875;
+    text-decoration: none
+}
+
+h3.specialH3 {
+    color: #83bb2b;
+    padding-bottom: 12px
+}
+
+a.contactFontIconFooter {
+    padding-right: 20px
+}
+
+.col4List {
+    margin-top: 0;
+    padding-left: 30px
+}
+
+.col4List p {
+    font-size: 16px;
+    font-family: 'SF Pro Display';
+    color: #ffffff;
+    line-height: 1.625;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.col4List a {
+    font-size: 18px;
+    font-family: 'SF Pro Display';
+    color: #83bb2b;
+    font-weight: bold;
+    line-height: 1.889;
+    margin-bottom: 0;
+}
+
+.footerSearch {
+    padding-top: 30px;
+    max-width: 304px;
+}
+
+.sb-example-1 .searchTerm3 {
+    font-size: 16px;
+    font-family: 'SF Pro Display';
+    color: #ffffff80;
+    padding: 18px;
+}
+
+input.searchTerm.searchTerm3 {
+    border-right: 0px;
+}
+
+input.searchTerm.searchTerm3,
+.sb-example-3 .search3 {
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 4px;
+    background-color: rgb(24, 25, 26);
+}
+
+.col1 {
+    max-width: 260px;
+}
+
+.declarationContainer {
+    max-width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.lhsDeclaration p {
+    font-size: 16px;
+    font-family: 'SF Pro Display';
+    color: rgb(255, 255, 255);
+    padding-left: 10px;
+}
+
+.footNavIcons>li {
+    color: #fff;
+    font-size: 20px;
+}
+
+
+/* RESPONSIVE */
+
+@media only screen and (max-width:1800px) {
+    .bBannerLabel {
+        padding-left: 260px;
+    }
+    .herolabel,
+    .heroDes,
+    .heroBtnBlock {
+        padding-left: 256px;
+    }
+}
+
+@media only screen and (max-width:1600px) {
+    .bBannerLabel {
+        padding-left: 210px;
+    }
+    .herolabel,
+    .heroDes,
+    .heroBtnBlock {
+        padding-left: 206px;
+    }
+}
+
+@media only screen and (max-width:1450px) {
+    .bBannerLabel {
+        padding-left: 150px;
+    }
+    .herolabel,
+    .heroDes,
+    .heroBtnBlock {
+        padding-left: 150px;
+    }
+}
+
+@media only screen and (max-width:1350px) {
+    .bBannerLabel {
+        padding-left: 100px;
+    }
+    .herolabel,
+    .heroDes,
+    .heroBtnBlock {
+        padding-left: 100px;
+    }
+}
+
+@media only screen and (max-width:1300px) {
+    .bBannerLabel {
+        padding-left: 50px;
+    }
+    .herolabel,
+    .heroDes,
+    .heroBtnBlock {
+        padding-left: 50px;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .bBannerLabel {
+        padding-left: 0px;
+    }
+    .herolabel,
+    .heroDes,
+    .heroBtnBlock {
+        padding-left: 0px;
+    }
+    .bBannerHeading {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width:1180px) {
+    .col1 p,
+    div.col2list a,
+    div.col2-2list a,
+    .col3list a,
+    .col4List p {
+        font-size: 14px;
+    }
+    .footerSearch {
+        max-width: 280px;
+    }
+    .footerInBox {
+        padding-left: 1%;
+    }
+    .bBannerHeading {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width:1180px) {
+    .bBannerLabel {
+        padding-left: 10%;
+        padding-bottom: 10%;
+        padding-top: 10%;
+    }
+    .herolabel,
+    .heroDes,
+    .heroBtnBlock {
+        padding-left: 15%;
+    }
+    .heroPara {
+        font-size: 1.25rem;
+    }
+    .heroSlogan {
+        font-size: 3rem;
+    }
+    .heroBtn,
+    .heroBtn3 {
+        font-size: 16px;
+    }
+    .sectionVision {
+        padding-left: 5%;
+        padding-right: 2%;
+    }
+    .heading3 {
+        font-size: 35px;
+    }
+    .s3des {
+        font-size: 20px;
+    }
+    div.s4C1.col-3 {
+        padding-left: 5%;
+    }
+    .card-img-top {
+        height: 150px;
+        width: 240px;
+    }
+    ul>li.rightNav2 {
+        font-size: 16px;
+    }
+    .navContent {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    .footerSearch {
+        max-width: 100%;
+    }
+    .bBannerLabel {
+        padding-left: 8%;
+        padding-bottom: 8%;
+        padding-top: 8%;
+    }
+}
+
+@media only screen and (max-width:1125px) {
+    .cost,
+    .linkToBuy>a,
+    .card-title,
+    .card-text {
+        font-size: 14px;
+    }
+    .bBannerHeading {
+        font-size: 25px;
+    }
+    .bBannerCaption {
+        font-size: 20px;
+    }
+    .bBannerBtn {
+        font-size: 14px;
+    }
+    .lhsDeclaration p {
+        font-size: 14px;
+    }
+    .footNavIcons>li {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width:1115px) {
+    .sb-example-1 .searchButton {
+        display: none;
+    }
+    .card-img-top {
+        height: 50%;
+        width: 95%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width:1070px) {
+    .svg-inline--fa.fa-w-10 {
+        display: none;
+    }
+    .card-img-top {
+        height: 50%;
+        width: 95%;
+        margin: 0 auto;
+    }
+    .sb-example-1 .searchButton {
+        display: block;
+    }
+    .navbar3 {
+        display: flex;
+        padding-bottom: 20px;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+    .cost {
+        padding-right: 40%;
+    }
+    .cost,
+    .linkToBuy>a,
+    .card-title,
+    .card-text {
+        font-size: 12px;
+    }
+    .headingS4 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    .col1 p,
+    div.col2list a,
+    div.col2-2list a,
+    .col3list a,
+    .col4List p {
+        font-size: 14px;
+        padding-left: 0;
+    }
+    .footerSearch {
+        max-width: 280px;
+    }
+    .footerInBox {
+        padding-left: 1%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: "header header";
+        grid-row-gap: 20px;
+    }
+    .bBannerHeading {
+        font-size: 30px;
+    }
+    .bBannerHeading {
+        font-size: 25px;
+    }
+    .bBannerCaption {
+        font-size: 18px;
+    }
+    .bSlogan {
+        font-size: 30px;
+        padding-top: 60px;
+    }
+    .bAuthor {
+        font-size: 20px;
+        padding-bottom: 60px;
+    }
+    .col1 {
+        grid-area: header;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .col2,
+    .col2-2,
+    .col3,
+    .col4 {
+        width: 100%;
+        margin: 0 auto;
+    }
+    ul>li.rightNav2,
+    span.logoDes,
+    .sb-example-1 .searchTerm,
+    .sb-example-2 .searchTerm2 {
+        font-size: 14px;
+    }
+    .herolabel,
+    .heroDes,
+    .heroBtnBlock {
+        padding-left: 12%;
+    }
+    .s3des>p {
+        font-size: 18px;
+    }
+    .footerImg {
+        width: 200px;
+    }
+    .footerSearch {
+        max-width: 250px;
+    }
+}
+
+@media only screen and (max-width:970px) {
+    .card-deck {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 5%;
+    }
+}
+
+@media only screen and (max-width:950px) {
+    .herolabel {
+        padding-top: 10%;
+    }
+    .heroBtnBlock {
+        padding-bottom: 10%;
+    }
+    .navLogo {
+        width: 70%;
+    }
+    .sb-example-1 .search {
+        display: none;
+    }
+    div.col2-2list,
+    .col4List,
+    .col2 div.col2list {
+        padding-left: 0;
+    }
+    .footerInBox {
+        padding-right: 1%;
+    }
+    .sb-example-2 .search2 {
+        width: 95%;
+    }
+    div.s4C1.col-3 {
+        padding-left: 3%;
+        padding-right: 1%;
+    }
+    .lhsDeclaration p {
+        font-size: 12px;
+    }
+    .footNavIcons>li {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width:860px) {
+    .heroSlogan {
+        font-size: 2.5rem;
+    }
+    .navLogo {
+        width: 65%;
+    }
+    .heroPara {
+        font-size: 1.15rem;
+    }
+    .heroBtn,
+    .heroBtn3,
+    .gridDes {
+        font-size: 14px;
+    }
+    .heroBtn3 {
+        padding: 10px 20px;
+    }
+    .gridNum {
+        font-size: 30px;
+    }
+    .bBannerHeading {
+        font-size: 20px;
+    }
+    .bBannerCaption {
+        font-size: 16px;
+    }
+    .herolabel,
+    .heroDes,
+    .heroBtnBlock {
+        padding-left: 10%;
+    }
+    .gCol,
+    .gCol2 {
+        padding-left: 6%;
+    }
+    .bBannerLabel {
+        padding-left: 6%;
+        padding-bottom: 6%;
+        padding-top: 6%;
+    }
+    .bSlogan {
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+    .bAuthor {
+        margin-bottom: 0;
+    }
+    .footerInBox {
+        padding-top: 10%;
+    }
+    .sb-example-2 .search2 {
+        width: 90%;
+        margin: auto;
+    }
+    .footerImg {
+        width: 150px;
+    }
+    .s4C1CheckList {
+        column-gap: 40px;
+    }
+}
+
+@media only screen and (max-width:750px) {
+    .miniNav {
+        display: flex;
+        justify-content: space-between;
+    }
+    .navLogoMini {
+        width: 20%;
+        padding: 10px;
+    }
+    h1.toggleMenuIcon {
+        display: block;
+        text-align: center
+    }
+    .toggleBtn {
+        border: 0;
+        display: block;
+        background-color: transparent;
+        font-weight: 700;
+    }
+    .toggleBtn::after,
+    .toggleBtn::before {
+        clear: both
+    }
+    .sb-example-2 .search2 {
+        width: 60%;
+    }
+    .hide {
+        display: none
+    }
+    .navLogo {
+        display: none;
+    }
+    .leftNav2 {
+        display: flex;
+        flex-direction: column-reverse;
+        padding-left: 20%;
+    }
+}
+
+@media only screen and (max-width:670px) {
+    .herolabel {
+        padding-top: 5%;
+    }
+    .herolabel,
+    .heroDes,
+    .heroBtnBlock {
+        padding-left: 5%;
+        padding-bottom: 5%;
+    }
+    .heroSlogan {
+        font-size: 2rem;
+    }
+    .heroPara {
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
+    .heading3 {
+        font-size: 25px;
+    }
+    .heroBtn,
+    .heroBtn3,
+    .gridDes {
+        font-size: 12px;
+    }
+    .s3des>p {
+        font-size: 14px;
+    }
+    .s3GridContainer {
+        padding-bottom: 0;
+    }
+    .s4C1CheckList {
+        column-gap: 20px;
+    }
+    .bBannerHeading {
+        font-size: 18px;
+        padding-bottom: 3%;
+    }
+    .bBannerCaption {
+        padding-bottom: 3%;
+    }
+    .bBannerBtn {
+        font-size: 11px;
+    }
+    .bSlogan {
+        padding-top: 5%;
+        font-size: 20px;
+        padding-bottom: 2px;
+        margin-bottom: 0;
+    }
+    .bAuthor {
+        font-size: 15px;
+        padding-bottom: 5%;
+    }
+    .col1 p,
+    div.col2list a,
+    div.col2-2list a,
+    .col3list a,
+    .col4List p {
+        font-size: 12px;
+        padding-left: 0;
+    }
+    .footerSearch {
+        max-width: 200px;
+    }
+}
+
+@media only screen and (max-width:620px) {
+    .s4C1CheckList {
+        display: block;
+        text-align: center;
+        padding-left: 5%;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .bBannerHeading {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width:640px) {
+    .card-deck {
+        grid-template-columns: 1fr;
+    }
+    div.s4C1.col-3#col3-smaller {
+        width: 40% !important;
+    }
+    .col-3 {
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+    .col-9 {
+        flex: 0 0 60%;
+        max-width: 60%;
+    }
+    .card-deck {
+        padding-bottom: 20%;
+    }
+}
+
+@media only screen and (max-width:540px) {
+    .footerInBox {
+        grid-template-columns: 1fr 1fr;
+        padding-left: 10%;
+    }
+    .footerMENU {
+        font-size: 16px;
+        padding-bottom: 1%;
+    }
+    .sb-example-2 .search2 {
+        width: 40%;
+    }
+}
